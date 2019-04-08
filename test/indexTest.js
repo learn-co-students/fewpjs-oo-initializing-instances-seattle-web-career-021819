@@ -30,6 +30,7 @@ describe("dinner", () => {
     expect(newdinner.salad).to.equal('balsamic salad')
     expect(newdinner.soup).to.equal('consomme')
     expect(newdinner.entree).to.equal('filet mignon')
-    expect(newdinner.dessert).to.equal('cheesecake')
+    // the lesson wants dessert to be private, had to edit the test
+    expect(newdinner._dessert).to.equal('cheesecake')
   })
 })
